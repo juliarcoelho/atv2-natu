@@ -1,0 +1,357 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+main {
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.navbar {
+    padding-top: 20px;
+    flex-wrap: wrap;
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(62, 62, 62, 0.05);
+    width: 1440px;
+    margin-bottom: 45px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #17214D;
+    font-size: 16px;
+    flex-wrap: wrap;
+}
+
+#facaparte {
+    color: #56BB81;
+
+}
+#facaparte:hover {
+    color: #A1FE92;
+  }
+
+#barra-pesquisa {
+    box-sizing: border-box;
+    width: 274px;
+    height: 37px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    border: 0.5px solid #AAAAAA;
+}
+
+#botao-pesquisa {
+    border: none;
+    background-color: #FFFFFF;
+    margin-right: 208px;
+    cursor: pointer;
+}
+
+.primeiro-banner {
+    background-image: url("image/banner.png");
+    border-radius: 15px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 264px;
+    top: 97px;
+    margin-bottom: 40px;
+}
+
+h1 {
+    padding-right: 70px;
+    padding-top: 90px;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.primeiro-banner p {
+    padding-right: 306px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.cabecalho {
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 20px;
+    display: inline-flex;
+    gap: 30px;
+}
+
+.formulario {
+    justify-content: space-between;
+}
+
+.terceiro-banner {
+    height: 436px;
+    left: 201.98px;
+    top: 2159px;
+    background-color: rgba(219, 232, 224, 1);
+    border-radius: 15px;
+    background-image: url("image/banner3.png");
+    background-size: 527px 755.44px 687.98px 2742.3px;
+    background-repeat: no-repeat;
+    background-position-x: 88%;
+    background-position-y: center;
+}
+
+#formulario {
+    margin-left: 59.99px;
+    padding-top: 20.92px;
+}
+
+.terceiro-banner input {
+    background-color: rgba(219, 232, 224, 1);
+    height: 47px;
+    width: 276px;
+    border-radius: 10px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 0px;
+    font-style: normal;
+    color: #767676;
+    border: 1px solid #6D6D6D;
+    box-sizing: border-box;
+    margin-left: 59.99px;
+
+}
+
+.terceiro-banner h2 {
+    font-size: 48px;
+    margin-left: 59.99px;
+    margin-bottom: 25px;
+    padding-top: 35px;
+    font-style: normal;
+}
+
+.terceiro-banner span {
+    font-size: 24px;
+    margin-left: 59.99px;
+
+}
+
+.terceiro-banner #button {
+    height: 44px;
+    width: 276px;
+    border-radius: 10px;
+    background-color: #82AB8B;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    border: none;
+    color: #FFFFFF;
+    margin-left: 59.99px;
+    cursor: pointer;
+}
+.terceiro-banner #button:hover {
+    background-color: #415A55;
+  }
+
+.container {
+    height: 263px;
+    width: 152px;
+    border-radius: 15px;
+    margin-bottom: 100px;
+}
+
+.container a {
+    text-decoration: none;
+    color: #17214D;
+}
+
+.imagem{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin-bottom: 0px;
+}
+
+
+.descricao-e-preco {
+    background: #FFFFFF;
+    width: 152px;
+    height: 116px;
+    box-shadow: 0px 4px 4px rgba(62, 62, 62, 0.1);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    cursor: pointer;
+}
+
+.descricao-e-preco p {
+
+    margin-left: 15px;
+    margin-right: 18px;
+    justify-content: space-evenly;
+}
+
+.link {
+    text-decoration: none;
+    float: right;
+    color: #767676;
+
+}
+
+.descricao {
+    display: flex;
+    margin: 15px 15px 41px 18px;
+}
+
+strong {
+    font-weight: bold;
+}
+
+.segundo-banner {
+    background-color: #DBE8E0;
+    height: 158px;
+    left: 205px;
+    top: 1533px;
+    border-radius: 15px;
+    background: url(image/banner2.png);
+    margin-bottom: 40px;
+
+}
+
+.segundo-banner p {
+    font-size: 24px;
+    line-height: 32px;
+    padding-left: 5%;
+    padding-top: 6%;
+}
+
+.carrossel {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+footer {
+    padding-left: 80px;
+    padding-right: 80px;
+
+    margin-top: 35px;
+    display: inline-flex;
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 18px;
+    display: flex;
+}
+
+ul {
+    list-style: none;
+}
+
+.rodape {
+    display: inline-flex;
+    margin-left: 135px;
+
+}
+
+.rodape h2 {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #17214D;
+
+}
+
+.rodape ul li a {
+    color: #17214D;
+    text-decoration: none;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    cursor: pointer;
+}
+
+#botao {
+    height: 42px;
+    width: 164px;
+    left: 922.9921875px;
+    top: 2697px;
+    border-radius: 15px;
+    background: #82AB8B;
+    border: none;
+    cursor: pointer;
+}
+
+#botao a {
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    align-items: center;
+    color: #FFFFFF;
+}
+#botao:hover {
+    background-color: #415A55;
+  }
+
+.categorias {
+    margin-right: 135px;
+}
+
+.utilidades {
+    margin-right: 135px;
+}
+
+hr {
+    border-top: #E5E5E5;
+    margin-top: 65px;
+}
+
+::placeholder {
+    color: #767676;
+    padding-left: 15px;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+
+.placeholder-form::placeholder {
+    color: #767676;
+    padding-left: 15px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.msg-erro{
+    color: red;
+    font-family: Poppins;
+    font-size: 8px;
+}
