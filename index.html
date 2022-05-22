@@ -33,13 +33,50 @@
         </div>
     </header>
 
-    <main>
+    <main>  
+        <div class="slideshow-container">
 
-        <div class="primeiro-banner">
+            <div class="mySlides fade">
+              <div class="numbertext">1 / 3</div>
+              <img src="image/banner.png" >
+              <div class="text"><h1>bem vindo(a) a natu!</h1>
+                <p>sua lojinha de produtos naturais :) </p></div>
+            </div>
+          
+            <div class="mySlides fade">
+              <div class="numbertext">2 / 3</div>
+              <img src="image/slide2.jpg" style="height: 264px;
+              ">
+              <div class="text" style="color: #ffff;"><h1>bem vindo(a) a natu!</h1>
+                <p>sua lojinha de produtos naturais :) </p></div>
+            </div>
+          
+            <div class="mySlides fade">
+              <div class="numbertext">3 / 3</div>
+              <img src="image/slide3.jpg" style="height: 264px ;
+              ">
+              <div class="text"><h1>bem vindo(a) a natu!</h1>
+                <p>sua lojinha de produtos naturais :) </p></div>
+            </div>
+          
+           
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          </div>
+          <br>
+          
+          
+          <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+          </div>
+
+          <!--  <div class="primeiro-banner">
 
             <h1>bem vindo(a) a natu!</h1>
             <p>sua lojinha de produtos naturais :) </p>
-        </div>
+        </div> -->
 
         <h2>ofertas</h2>
         <a href="produto-indisponivel.html" class="link">ver produtos</a>
@@ -289,33 +326,33 @@
 
             <div>
                 <h2>quer receber ofertas no email?</h2>
-                <span>junte-se à nossa comunidade!</span>
+                <span id="comunidade">junte-se à nossa comunidade!</span>
             </div>
 
             <br>
 
-            <form action="formEnviado.html" onsubmit="return validar_formulario(this)" method="post" name="formulario">
+            <form action="" onsubmit="return validar_formulario(this)" method="post" name="formulario">
 
                 <input class="placeholder-form" type="text" placeholder="nome" name="nome_formulario"
-                    id="nome_formulario">
+                    id="nome_formulario" onblur="validaNome()">
                 <span class="msg-erro msg-nome"></span>
 
                 <br>
                 <br>
 
-                <input class="placeholder-form" type="text" placeholder="email" name="email" id="email">
+                <input class="placeholder-form" type="text" placeholder="email" name="email" id="email" onblur="validaEmail()">
                 <span class="msg-erro msg-email"></span>
                 <br>
                 <br>
 
-                <input class="placeholder-form" type="text" placeholder="telefone" name="telefone" id="telefone">
+                <input class="placeholder-form" type="text" placeholder="telefone" name="telefone" id="telefone" onblur="validaTelefone()">
                 <span class="msg-erro msg-telefone"></span>
 
                 <br>
                 <br>
 
                 <input type="submit" id="button" value="faça parte">
-                <span class="msg-form-enviado msg-submit"></span>
+                <span class="msg-form-enviado msg-submit" style="font-size: 8px;"></span>
             </form>
         </div>
 
