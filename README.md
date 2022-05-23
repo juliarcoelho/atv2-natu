@@ -5,4 +5,5 @@ requisitos:
 - desenvolver validações de obrigatoriedade de preenchimento de campos com javascritpt
 - em ambas validações, mostrar erro acima ou abaixo dos campos do formulário
 - colocar um carrossel (não incluso no projeto inicial) na área de destaque, incluindo botões para passar a imagem
-- não utilizar bootstrap 
+- não utilizar bootstrap
+- apenas frontend
